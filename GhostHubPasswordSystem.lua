@@ -5,8 +5,8 @@ local Password = GhostAssassinsHub:NewTab("Password")
 local PasswordSection = Password:NewSection("Password")
 
 PasswordSection:NewTextBox("Password", "Password", function(txt)
-	if txt == "8247295(fkh)" then
-        loadstring(game:HttpGet("https://pastebin.com/raw/LRV1Qdmi"))()
+	if txt == "949540" then
+        loadstring(game:HttpGet("https://github.com/KidGameZ1/GhostHub.git"))()
         Library:ToggleUI()
     else
         Library:ToggleUI()
