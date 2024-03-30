@@ -6,9 +6,9 @@ local PasswordSection = Password:NewSection("Password")
 
 PasswordSection:NewTextBox("Password", "Password", function(txt)
 	if txt == "949540" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/KidGameZ1/GhostHub/main/GhostHub.lua"))()
-        Library:ToggleUI()
-    else
-        Library:ToggleUI()
-    end
+        	loadstring(game:HttpGet("https://raw.githubusercontent.com/KidGameZ1/GhostHub/main/GhostHub.lua"))()
+        	Library:ToggleUI()
+   	else
+       	 	Library:ToggleUI()
+    	end
 end)
